@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Установка ГБО Костанай</title>
+  <link rel="stylesheet" href="css/normalize.css">
+
+  <link rel="stylesheet" href="css/intlTelInput.css">
+  <link rel="stylesheet" href="css/main.css">
+
+</head>
+
+<body>
+
+  <header class="main-header">
+    <div class="container">
+      <nav class="main-navigation">
+        <a class="main-header-logo">
+          <img src="img/911.png" width="141" height="40" alt="Логотип">
+        </a>
+        <ul class="site-navigation">
+          <li>
+            <a class="location" href="">Костанай</a>
+          </li>
+          <li>
+            <button class="ticket" href="">Оставить заявку</button>
+          </li>
+        </ul>
+      </nav>
+
+      <h2 class="description">Обслуживание / Продажа</h2>
+      <h1 class="title">Установка <u>ГБО</u> на автомобили</h1>
+    </div>
+  </header>
+  <div class="calc-cont">
+    <section class="calculator">
+      <div class="economy-circle">
+        <img class="economy" src="img/Page-1.png" alt="">
+      </div>
+      <h3 class="calculator-title">Экономия</h3>
+      <h4 class="calculator-subtitle">Установка газобалонного оборудования - это инвестиция, которая всегда
+        окупается.
+      </h4>
+
+      <ul class="calculation">
+        <li>
+          <label for="gas-cost">Стоимость газа (л.)</label> <br>
+          <input type="range" id="gas-cost" name="gascost" min="60" max="90" value="62">
+          <p class="gas-cost-value" id="gasCostValue">62</p>
+        </li>
+        <li>
+          <label for="petrol-cost">Стоимость бензина (л.)</label> <br>
+          <input type="range" id="petrol-cost" name="petrol-cost" min="140" max="170" value="140">
+          <p class="petrol-cost-value" id="petrolCostValue">140</p>
+        </li>
+        <li>
+          <label for="daily-mileage">Суточный пробег (км.)</label> <br>
+          <input type="range" id="daily-mileage" name="daily-mileage" min="0" max="200" value="30">
+          <p class="daily-mileage-value" id="dailyMileageValue">30</p>
+        </li>
+        <li>
+          <label for="petrol-consumption">Расход бензина (л./100км.)</label> <br>
+          <input type="range" id="petrol-consumption" name="petrol-consumption" min="5" max="20" value="10">
+          <p class="petrol-consumption-value" id="petrolConsumptionValue">10</p>
+        </li>
+
+      </ul>
+      <div class="calculation-result">
+        <p class="calculation-result-title">Ваша экономия:</p>
+        <p id="calculation-result-value" class="calculation-result-value">30237</p>
+        <p class="calculation-result-title2">(тг./год)</p>
+      </div>
+    </section>
+
+    <section class="trade-offer">
+      <ul class="trade-offer-list">
+        <li>
+          <div class="trade-offer-icon-bg"><img src="img/ok.png" alt=""></div>
+          <h3>Практичность</h3>
+          <p>Плавное и тихое движение с сохранением мощности автомобиля.</p>
+        </li>
+        <li>
+          <div class="trade-offer-icon-bg"><img src="img/policy.png" alt=""></div>
+          <h3>Безопасность</h3>
+          <p>Сертифицированное оборудование, соответствующее всем правилам безопасности.</p>
+        </li>
+        <li>
+          <div class="trade-offer-icon-bg"><img src="img/002-security.png" alt=""></div>
+          <h3>Нам доверяют</h3>
+          <p>Наша компания находится на рынке автомобильного ГБО более 3-х лет.</p>
+        </li>
+        <li>
+          <div class="trade-offer-icon-bg">144</div>
+          <h3>Число установок</h3>
+          <p>Число установленного ГБО растёт с каждым днём, как и число счастливых клиентов.</p>
+        </li>
+      </ul>
+    </section>
+  </div>
+
+  <section class="equipment">
+    <div class="equipment-img">
+      <img src="img/car.png" alt="">
+    </div>
+    <button class="equipment-dot1" data-tippy-content="мультиклапан">1</button>
+    <button class="equipment-dot1" data-tippy-content="баллон">2</button>
+    <button class="equipment-dot1" data-tippy-content="кнопка">3</button>
+    <button class="equipment-dot1" data-tippy-content="блок управления">4</button>
+    <button class="equipment-dot1" data-tippy-content="редуктор">5</button>
+    <button class="equipment-dot1" data-tippy-content="форсунки">6</button>
+    <button class="equipment-dot1" data-tippy-content="хз">7</button>
+    <div class="equipment-content">
+      <h4>Устанавливаем / обслуживаем</h4>
+      <h3>Оборудование</h3>
+      <ul class="generations">
+        <li>
+          <div class="generations-line"></div>
+          <p>Чётвертое поколение</p>
+        </li>
+        <li>
+          <div class="generations-line"></div>
+          <p>Второе поколение</p>
+        </li>
+      </ul>
+
+      <ul class="brands-line1">
+        <li>
+          <img src="img/alaska.png" alt="Alaska">
+          <h3>Заводской Китай</h3>
+          <p>без гарантии</p>
+        </li>
+        <li>
+          <img src="img/poletron.png" alt="Alaska">
+          <h3>Италия/Польша</h3>
+          <p>1 год гарантии</p>
+        </li>
+        <li>
+          <img src="img/stag.png" alt="Alaska">
+          <h3>Польша</h3>
+          <p>1 год гарантии</p>
+        </li>
+      </ul>
+      <ul class="brands-line2">
+        <li>
+          <img src="img/Digitronic.png" alt="Alaska">
+          <h3>Польша</h3>
+          <p>1 год гарантии</p>
+          <p>30 тыс. пробега</p>
+        </li>
+        <li>
+          <img src="img/omvl.png" alt="Alaska">
+          <h3>Италия</h3>
+          <p>1 год гарантии</p>
+          <p>60 тыс. пробега</p>
+        </li>
+        <li>
+          <img src="img/BRC.png" alt="Alaska">
+          <h3>Италия</h3>
+          <p>2 года гарантии</p>
+          <p>100 тыс. пробега</p>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="for-clients">
+    <h3>Для наших клиентов</h3>
+    <ul class="for-clients-list">
+      <li>
+        <img src="img/Intersection 3.png" alt="">
+        <p>Первое ТО или расходные материалы для ТО</p>
+        <p>Бесплатно!</p>
+      </li>
+      <li>
+        <img src="img/Intersection 4.png" alt="">
+        <p>Скидка на обслуживание</p>
+        <p>15%</p>
+      </li>
+      <li>
+        <img src="img/Intersection 5.png" alt="">
+        <p>Скидки на оптовые закупки в зависимости</p>
+        <p>От объемов</p>
+      </li>
+    </ul>
+  </section>
+
+  <section class="ticket">
+    <div class="map">
+      <script type="text/javascript" charset="utf-8" async
+        src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Af916c5b9fbb71a6de46635f2e1fb1c1fa5c5c4a3fc8a96978930d952122c1c18&amp;width=635&amp;height=405&amp;lang=ru_RU&amp;scroll=true"></script>
+    </div>
+    <div class="ticket-right-side">
+      <h3>Отправить заявку</h3>
+      <p>Мы обязательно перезвоним вам!</p>
+      <input type="tel" id="phone" autocomplete="off" data-intl-tel-input-id="0" placeholder="+7 (7..) ...-..-..">
+      <script src="js/intlTelInput.js"></script>
+      <script>
+        var input = document.querySelector("#phone");
+        window.intlTelInput(input, {
+          initialCountry: "kz"
+        });
+      </script>
+      <button class="send">Отправить</button>
+      <p>Контакты</p>
+      <p>+7 (705) 183-14-97</p>
+      <p>+7 (705) 570-09-31</p>
+      <p>ул. Баймагамбетова, 277</p>
+      <p>пн-пт 9:00-18:00, сб 9:00-14:00</p>
+
+      <ul class="ticket-icons">
+        <li>
+          <div class="ticket-icons-circle"><a href=""><img src="img/002-instagram.png" alt=""></a></div>
+        </li>
+        <li>
+          <div class="ticket-icons-circle"><a href=""><img src="img/003-vk.png" alt=""></div></a>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+
+
+  <section class="partners">
+    <h3>Наши партнёры</h3>
+    <p>Занимаемся продажей, установкой и обслуживанием самых узнаваемых и
+      зарекомендовавших себя марок газобаллонного оборудования различных
+      стран производств.</p>
+    <img src="img/all.png" alt="">
+  </section>
+
+  <footer>
+    <ul class="footer-list">
+      <li>
+        <img src="img/911.png" alt="">
+      </li>
+      <li>
+        +7 (705) 183-14-97
+        +7 (705) 570-09-31
+      </li>
+      <li>
+        Казахстан, г. Костанай
+        ул. Баймагамбетова, 277
+      </li>
+      <li>
+        пн-пн 9:00-18:00,
+        сб 9:00-14:00
+      </li>
+      <li>
+        911avtogaz@gmail.com
+        <div class="footer-line"></div>
+        <div class="footer-socials">
+          <div class="footer-socials-circle"><a href=""><img src="img/002-instagram.png" alt=""></a></div>
+          <div class="footer-socials-circle"><a href=""><img src="img/003-vk.png" alt=""></a></div>
+        </div>
+      </li>
+    </ul>
+  </footer>
+
+  <script src="https://unpkg.com/@popperjs/core@2"></script>
+  <script src="https://unpkg.com/tippy.js@6"></script>
+  <script>tippy('[data-tippy-content]');</script>
+
+</body>
+<script src="js/main.js"></script>
+
+</html>
