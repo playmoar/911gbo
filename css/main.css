@@ -247,9 +247,9 @@ header {
   margin-top: 10px;
 }
 
-.title u {
-  -webkit-text-decoration-color: #D59D6B;
-          text-decoration-color: #D59D6B;
+.uline {
+  border-bottom: 5px solid #D59D6B;
+  padding: 3px;
 }
 
 .trade-offer {
