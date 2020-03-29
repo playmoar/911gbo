@@ -381,6 +381,7 @@ header
   width: 235px
   height: 4px
   background-color: #b9bdc4
+  margin-bottom: 8px
 
 .active-line
   background-color: #D59D6B
@@ -395,9 +396,11 @@ header
   letter-spacing: normal
   text-align: left
   color: #b9bdc4
+  text-decoration: none
 
 .active-gen
   color: #D59D6B
+  
 
 .brands-line1
   padding: 0
@@ -972,3 +975,60 @@ input[type=range]:focus::-ms-fill-lower
 
 input[type=range]:focus::-ms-fill-upper 
   background: #f5f5f5
+
+
+.second-gen
+  margin: 0
+  padding: 0
+  margin-top: 35px
+  list-style: none
+  font-family: Montserrat
+  font-size: 16px
+  font-weight: normal
+  font-stretch: normal
+  font-style: normal
+  line-height: 1.63
+  letter-spacing: normal
+  text-align: left
+  color: #131313
+
+.second-gen li::before
+  content: ""
+  display: block
+  background: url("../img/checked.png") no-repeat
+  width: 21px
+  height: 16px
+  float: left
+  padding-right: 10px
+  margin-top: 5px
+
+.second-gen-marks h3
+  font-family: Montserrat
+  font-size: 16px
+  font-weight: 500
+  font-stretch: normal
+  font-style: normal
+  line-height: 1
+  letter-spacing: normal
+  text-align: left
+  color: #131313
+  margin: 0
+  padding: 0
+  margin-top: 32px
+
+.second-gen-marks-brands
+  margin: 0
+  padding: 0
+  margin-top: 22px
+  display: flex
+  list-style: none
+  width: 330px
+  justify-content: space-between
+
+.tab1content
+  display: none
+
+.tab2content
+  display: none
+.active
+  display: block
