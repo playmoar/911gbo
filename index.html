@@ -47,23 +47,23 @@
       <ul class="calculation">
         <li>
           <label for="gas-cost">Стоимость газа (л.)</label> <br>
-          <input type="range" id="gas-cost" name="gascost" min="60" max="90" value="62">
-          <p class="gas-cost-value" id="gasCostValue">62</p>
+          <input type="range" id="gas-cost" name="gascost" min="60" max="90" value="71">
+          <p class="gas-cost-value" id="gasCostValue">71</p>
         </li>
         <li>
           <label for="petrol-cost">Стоимость бензина (л.)</label> <br>
-          <input type="range" id="petrol-cost" name="petrol-cost" min="140" max="170" value="140">
-          <p class="petrol-cost-value" id="petrolCostValue">140</p>
+          <input type="range" id="petrol-cost" name="petrol-cost" min="140" max="170" value="158">
+          <p class="petrol-cost-value" id="petrolCostValue">158</p>
         </li>
         <li>
-          <label for="daily-mileage">Суточный пробег (км.)</label> <br>
-          <input type="range" id="daily-mileage" name="daily-mileage" min="0" max="199" value="30">
-          <p class="daily-mileage-value" id="dailyMileageValue">30</p>
+          <label for="daily-mileage">Годовой пробег (тыс. км.)</label> <br>
+          <input type="range" id="daily-mileage" name="daily-mileage" min="0" max="40" value="20">
+          <p class="daily-mileage-value" id="dailyMileageValue">20</p>
         </li>
         <li>
           <label for="petrol-consumption">Расход бензина (л./100км.)</label> <br>
-          <input type="range" id="petrol-consumption" name="petrol-consumption" min="5" max="20" value="10">
-          <p class="petrol-consumption-value" id="petrolConsumptionValue">10</p>
+          <input type="range" id="petrol-consumption" name="petrol-consumption" min="5" max="20" value="9">
+          <p class="petrol-consumption-value" id="petrolConsumptionValue">9</p>
         </li>
 
       </ul>
@@ -102,26 +102,26 @@
 
   <section class="equipment">
     <div class="equipment-img">
-      <img src="img/car.png" alt="">
+      <img src="img/car.png" alt="" width="556px" height="353px">
     </div>
-    <button class="equipment-dot1" data-tippy-content="мультиклапан">1</button>
-    <button class="equipment-dot1" data-tippy-content="баллон">2</button>
-    <button class="equipment-dot1" data-tippy-content="кнопка">3</button>
-    <button class="equipment-dot1" data-tippy-content="блок управления">4</button>
-    <button class="equipment-dot1" data-tippy-content="редуктор">5</button>
-    <button class="equipment-dot1" data-tippy-content="форсунки">6</button>
-    <button class="equipment-dot1" data-tippy-content="хз">7</button>
+    <button class="equipment-dot1 dot" data-tippy-content="мультиклапан">1</button>
+    <button class="equipment-dot2 dot" data-tippy-content="баллон">2</button>
+    <button class="equipment-dot3 dot" data-tippy-content="кнопка">3</button>
+    <button class="equipment-dot4 dot" data-tippy-content="блок управления">4</button>
+    <button class="equipment-dot5 dot" data-tippy-content="редуктор">5</button>
+    <button class="equipment-dot6 dot" data-tippy-content="форсунки">6</button>
+    <button class="equipment-dot7 dot" data-tippy-content="хз">7</button>
     <div class="equipment-content">
       <h4>Устанавливаем / обслуживаем</h4>
       <h3>Оборудование</h3>
       <ul class="generations">
         <li>
-          <div class="generations-line"></div>
-          <p>Чётвертое поколение</p>
+          <div class="generations-line active-line"></div>
+          <p class="pgen active-gen" id="fourth">Чётвертое поколение</p>
         </li>
         <li>
           <div class="generations-line"></div>
-          <p>Второе поколение</p>
+          <p class="pgen" id="second">Второе поколение</p>
         </li>
       </ul>
 
@@ -144,19 +144,19 @@
       </ul>
       <ul class="brands-line2">
         <li>
-          <img src="img/Digitronic.png" alt="Alaska">
+          <img src="img/Digitronic.png" height="49" width="165" alt="Alaska">
           <h3>Польша</h3>
           <p>1 год гарантии</p>
           <p>30 тыс. пробега</p>
         </li>
         <li>
-          <img src="img/omvl.png" alt="Alaska">
+          <img src="img/omvl.png" height="49" alt="Alaska">
           <h3>Италия</h3>
           <p>1 год гарантии</p>
           <p>60 тыс. пробега</p>
         </li>
         <li>
-          <img src="img/BRC.png" alt="Alaska">
+          <img src="img/BRC.png" height="49" width="105" alt="Alaska">
           <h3>Италия</h3>
           <p>2 года гарантии</p>
           <p>100 тыс. пробега</p>
@@ -166,55 +166,61 @@
   </section>
 
   <section class="for-clients">
-    <h3>Для наших клиентов</h3>
-    <ul class="for-clients-list">
-      <li>
-        <img src="img/Intersection 3.png" alt="">
-        <p>Первое ТО или расходные материалы для ТО</p>
-        <p>Бесплатно!</p>
-      </li>
-      <li>
-        <img src="img/Intersection 4.png" alt="">
-        <p>Скидка на обслуживание</p>
-        <p>15%</p>
-      </li>
-      <li>
-        <img src="img/Intersection 5.png" alt="">
-        <p>Скидки на оптовые закупки в зависимости</p>
-        <p>От объемов</p>
-      </li>
-    </ul>
+    <div class="for-clients-container">
+      <h3>Для наших клиентов</h3>
+      <ul class="for-clients-list">
+        <li>
+          <img src="img/Intersection 3.png" alt="">
+          <p class="clients-title"><b>Первое ТО</b> или расходные материалы для ТО</p>
+          <p class="clients-desc">Бесплатно!</p>
+        </li>
+        <li>
+          <img src="img/Intersection 4.png" alt="">
+          <p class="clients-title">Скидка <br> на обслуживание</p>
+          <p class="clients-desc">15%</p>
+        </li>
+        <li>
+          <img src="img/Intersection 5.png" alt="">
+          <p class="clients-title">Скидки на <span class="opt">оптовые <br> закупки</span> в зависимости</p>
+          <p class="clients-desc">От объемов</p>
+        </li>
+      </ul>
+    </div>
   </section>
 
-  <section class="ticket">
+  <section class="ticket-box">
     <div class="map">
       <script type="text/javascript" charset="utf-8" async
-        src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Af916c5b9fbb71a6de46635f2e1fb1c1fa5c5c4a3fc8a96978930d952122c1c18&amp;width=635&amp;height=405&amp;lang=ru_RU&amp;scroll=true"></script>
+        src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Af916c5b9fbb71a6de46635f2e1fb1c1fa5c5c4a3fc8a96978930d952122c1c18&amp;width=635&amp;height=535&amp;lang=ru_RU&amp;scroll=true"></script>
     </div>
     <div class="ticket-right-side">
       <h3>Отправить заявку</h3>
-      <p>Мы обязательно перезвоним вам!</p>
-      <input type="tel" id="phone" autocomplete="off" data-intl-tel-input-id="0" placeholder="+7 (7..) ...-..-..">
+      <p class="ticket-call-back-desc">Мы обязательно перезвоним вам!</p>
+      <input class="tel-input" type="tel" id="phone" autocomplete="off" data-intl-tel-input-id="0"
+        placeholder="+7 (7__) - ___ - __ - __">
       <script src="js/intlTelInput.js"></script>
       <script>
         var input = document.querySelector("#phone");
         window.intlTelInput(input, {
           initialCountry: "kz"
+          allowDropdown: false,
         });
       </script>
       <button class="send">Отправить</button>
-      <p>Контакты</p>
-      <p>+7 (705) 183-14-97</p>
-      <p>+7 (705) 570-09-31</p>
-      <p>ул. Баймагамбетова, 277</p>
-      <p>пн-пт 9:00-18:00, сб 9:00-14:00</p>
+      <p class="contacts-title">Контакты</p>
+      <p class="contacts-tel1">+7 (705) 183-14-97</p>
+      <p class="contacts-tel2">+7 (705) 570-09-31</p>
+      <p class="contacts-adress">ул. Баймагамбетова, 277</p>
+      <p class="contacts-hours">пн-пт 9:00-18:00, сб 9:00-14:00</p>
 
       <ul class="ticket-icons">
         <li>
-          <div class="ticket-icons-circle"><a href=""><img src="img/002-instagram.png" alt=""></a></div>
+          <div class="ticket-icons-circle"><a href=""><img class="insta" src="img/002-instagram.png" width="21px"
+                alt=""></a></div>
         </li>
         <li>
-          <div class="ticket-icons-circle"><a href=""><img src="img/003-vk.png" alt=""></div></a>
+          <div class="ticket-icons-circle"><a href=""><img class="vk" src="img/003-vk.png" width="18px" alt=""></div>
+          </a>
         </li>
       </ul>
     </div>
@@ -223,39 +229,48 @@
 
 
   <section class="partners">
-    <h3>Наши партнёры</h3>
-    <p>Занимаемся продажей, установкой и обслуживанием самых узнаваемых и
-      зарекомендовавших себя марок газобаллонного оборудования различных
-      стран производств.</p>
-    <img src="img/all.png" alt="">
+    <div class="partners-container">
+      <h3>Наши партнёры</h3>
+      <p>Занимаемся продажей, установкой и обслуживанием самых узнаваемых и
+        зарекомендовавших себя марок газобаллонного оборудования различных
+        стран производств.</p>
+    </div>
+    <div class="partners-logos"></div>
   </section>
 
   <footer>
-    <ul class="footer-list">
-      <li>
-        <img src="img/911.png" alt="">
-      </li>
-      <li>
-        +7 (705) 183-14-97
-        +7 (705) 570-09-31
-      </li>
-      <li>
-        Казахстан, г. Костанай
-        ул. Баймагамбетова, 277
-      </li>
-      <li>
-        пн-пн 9:00-18:00,
-        сб 9:00-14:00
-      </li>
-      <li>
-        911avtogaz@gmail.com
-        <div class="footer-line"></div>
-        <div class="footer-socials">
-          <div class="footer-socials-circle"><a href=""><img src="img/002-instagram.png" alt=""></a></div>
-          <div class="footer-socials-circle"><a href=""><img src="img/003-vk.png" alt=""></a></div>
-        </div>
-      </li>
-    </ul>
+    <div class="footer-container">
+      <ul class="footer-list">
+        <li>
+          <img src="img/911.png" alt="">
+        </li>
+        <li class="footer-tel">
+          +7 (705) 183-14-97 <br>
+          +7 (705) 570-09-31
+        </li>
+        <li class="footer-address">
+          Казахстан, г. Костанай
+          ул. Баймагамбетова, 277
+        </li>
+        <li class="footer-hours">
+          пн-пн 9:00-18:00, <br>
+          сб 9:00-14:00
+        </li>
+        <li class="footer-mail-socials">
+          <u>911avtogaz@gmail.com</u>
+          <div class="footer-line"></div>
+          <div class="footer-socials">
+            <div class="footer-socials-circle"><a href=""><img class="footer-insta" src="img/002-instagram.png"
+                  width="15px" height="15px" alt=""></a></div>
+            <div class="footer-socials-circle"><a href=""><img class="footer-vk" src="img/003-vk.png" width="13px"
+                  height="8px" alt=""></a></div>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <div class="footer-copyright">
+      <p>© Copyright 2019 | 911. All Rights Reserved</p>
+    </div>
   </footer>
 
   <script src="https://unpkg.com/@popperjs/core@2"></script>
