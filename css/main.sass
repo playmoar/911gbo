@@ -12,6 +12,16 @@ header
   height: 729px
   background-image: url(../img/bg1.png)
   background-size: cover;
+  background-size: 100%
+  background-position: center
+  animation: shrink 5s infinite alternate
+
+@keyframes shrink 
+  0% 
+    background-size: 100% 
+  100% 
+    background-size: 110%
+
 
 .container
   width: 1110px
@@ -1057,6 +1067,8 @@ input[type=range]:focus::-ms-fill-upper
   display: none
 .active
   display: block
+
+  
 
 
 
