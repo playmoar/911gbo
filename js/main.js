@@ -67,3 +67,43 @@ tab1text.addEventListener("click", e => {
 
 });
 
+var myMap;
+
+// Дождёмся загрузки API и готовности DOM.
+ymaps.ready(init);
+
+function init() {
+  // Создание экземпляра карты и его привязка к контейнеру с
+  // заданным id ("map").
+  myMap = new ymaps.Map('map', {
+    // При инициализации карты обязательно нужно указать
+    // её центр и коэффициент масштабирования.
+    center: [53.224619, 63.636842],
+    zoom: 16
+  }, {
+    searchControlProvider: 'yandex#search'
+  })
+  myGeoObject = new ymaps.GeoObject({
+    // Описание геометрии.
+    geometry: {
+      type: "Point",
+      coordinates: [53.224595, 63.641416]
+    },
+    // Свойства.
+    properties: {
+      // Контент метки.
+      iconContent: 'ГБО 911',
+      hintContent: 'Ну давай уже тащи'
+    }
+  }, {
+    // Опции.
+    // Иконка метки будет растягиваться под размер ее содержимого.
+    preset: 'islands#redStretchyIcon',
+    // Метку можно перемещать.
+  })
+
+  myMap.geoObjects
+    .add(myGeoObject)
+
+};
+

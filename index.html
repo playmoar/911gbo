@@ -9,11 +9,13 @@
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/intlTelInput.css">
   <link rel="stylesheet" href="css/main.css">
+  <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU&amp;apikey=3395e195-bb69-403b-b5a7-1fb5ab02e8ee"
+    type="text/javascript"></script>
 </head>
 
 <body>
 
-  <header class="main-header wow rubberBand" data-wow-iteration="infinite" data-wow-duration="2s">
+  <header class="main-header">
     <div class="container">
       <nav class="main-navigation">
         <a class="main-header-logo">
@@ -220,9 +222,9 @@
   </section>
 
   <section class="ticket-box wow fadeIn" data-wow-offset="150" id="ticket-box">
-    <div class="map">
-      <script type="text/javascript" charset="utf-8" async
-        src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Af916c5b9fbb71a6de46635f2e1fb1c1fa5c5c4a3fc8a96978930d952122c1c18&amp;width=635&amp;height=535&amp;lang=ru_RU&amp;scroll=true"></script>
+    <div class="map" id="map">
+      <!-- <script id="map-desktop" type="text/javascript" charset="utf-8" async
+        src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Af916c5b9fbb71a6de46635f2e1fb1c1fa5c5c4a3fc8a96978930d952122c1c18&amp;width=635&amp;height=535&amp;lang=ru_RU&amp;scroll=true"></script> -->
     </div>
     <div class="ticket-right-side">
       <h3>Отправить заявку</h3>
