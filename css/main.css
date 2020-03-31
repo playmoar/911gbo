@@ -286,31 +286,23 @@ header {
 }
 
 .trade-offer-icon-bg {
-  margin: 50px auto;
+  margin: 30px auto;
   display: block;
-  width: 60px;
-  height: 60px;
+  width: 100px;
+  height: 100px;
   overflow: hidden;
   border-radius: 8px;
-  transform: rotate(45deg);
-  -ms-transform: rotate(45deg);
-  /* IE 9 */
-  -webkit-transform: rotate(45deg);
-  /* Safari and Chrome */
   position: relative;
   background-color: white;
-  -webkit-box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.1);
-          box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.1);
+}
+
+.trade-offer-icon-bg p {
+  position: absolute;
+  margin-top: 40px;
+  margin-left: 35px;
 }
 
 .trade-offer-icon-bg img {
-  top: 18px;
-  left: 20px;
-  transform: rotate(-45deg);
-  -ms-transform: rotate(-45deg);
-  /* IE 9 */
-  -webkit-transform: rotate(-45deg);
-  /* Safari and Chrome */
   position: absolute;
 }
 
@@ -1738,6 +1730,7 @@ input[type=range]:focus::-ms-fill-upper {
     width: 300px;
     padding: 0;
     margin: 0 auto;
+    margin-top: 75px;
   }
   .equipment-content {
     max-width: 300px;
@@ -1814,6 +1807,7 @@ input[type=range]:focus::-ms-fill-upper {
   }
   .for-clients {
     height: 500px;
+    margin-top: 75px;
   }
   .for-clients-container {
     width: 300px;
@@ -1845,17 +1839,17 @@ input[type=range]:focus::-ms-fill-upper {
   }
   #map {
     width: 100vw;
-    height: 280px;
-    padding-top: 10px;
+    height: 380px;
+    padding-top: 50px;
   }
   .ticket-box {
     width: 100vw;
-    padding-top: 550px;
+    padding-top: 625px;
     -webkit-box-orient: vertical;
     -webkit-box-direction: reverse;
         -ms-flex-direction: column-reverse;
             flex-direction: column-reverse;
-    height: 735px;
+    height: 835px;
   }
   .ticket-right-side {
     padding-left: 10px;
@@ -1908,7 +1902,7 @@ input[type=range]:focus::-ms-fill-upper {
     font-size: 12px;
   }
   .partners {
-    margin-top: 43px;
+    margin-top: 100px;
   }
   .partners-logos {
     height: 50px;
