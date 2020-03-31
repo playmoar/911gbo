@@ -3,6 +3,21 @@ html {
   scroll-behavior: smooth;
 }
 
+.burger-menu {
+  width: 220px;
+  position: fixed;
+  height: 100vh;
+  background-color: #dbae86;
+  right: 0;
+  z-index: 999999;
+  background-image: linear-gradient(201deg, #dbae86, #e1bc9c);
+  margin: 0 auto;
+}
+
+.burger-menu-closed {
+  display: none;
+}
+
 .mailto {
   text-decoration: none;
   color: inherit;
@@ -1844,7 +1859,7 @@ input[type=range]:focus::-ms-fill-upper {
   }
   .ticket-box {
     width: 100vw;
-    padding-top: 625px;
+    margin-top: 470px;
     -webkit-box-orient: vertical;
     -webkit-box-direction: reverse;
         -ms-flex-direction: column-reverse;
@@ -1968,6 +1983,15 @@ input[type=range]:focus::-ms-fill-upper {
   .slide {
     display: inline-block;
     padding-left: 10px;
+  }
+  .burger-logo {
+    padding-top: 20px;
+    margin: 0 auto;
+    margin-left: 60px;
+  }
+  .burger-close {
+    filter: invert(100%);
+    -webkit-filter: invert(100%);
   }
 }
 /*# sourceMappingURL=main.css.map */

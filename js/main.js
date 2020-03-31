@@ -33,6 +33,26 @@ petrolConsumption.oninput = function () {
 
 calculationResultValue.innerHTML = ((petrolConsumption.value / 100 * dailyMileage.value * petrolCost.value - petrolConsumption.value / 100 * dailyMileage.value * gasCost.value) * 365).toFixed(0);
 
+const burgerMenu = document.getElementById("burger-menu");
+const burgerIcon = document.getElementById("burger-icon");
+const closeBurger = document.getElementById("close-burger");
+const closeBurger2 = document.getElementById("close-burger2");
+burgerIcon.addEventListener("click", e => {
+  e.preventDefault();
+
+  document.getElementById("burger-menu").classList.remove("burger-menu-closed");
+});
+
+closeBurger.addEventListener("click", e => {
+  e.preventDefault();
+
+  document.getElementById("burger-menu").classList.add("burger-menu-closed");
+});
+closeBurger2.addEventListener("click", e => {
+
+  document.getElementById("burger-menu").classList.add("burger-menu-closed");
+});
+
 const tab1line = document.getElementById("tab1line");
 const tab1text = document.getElementById("tab1text");
 const tab1content = document.getElementById("tab1content");
