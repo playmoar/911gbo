@@ -93,7 +93,7 @@ function init() {
     properties: {
       // Контент метки.
       iconContent: 'ГБО 911',
-      hintContent: 'Ну давай уже тащи'
+      hintContent: 'Баймагамбетова, 277'
     }
   }, {
     // Опции.

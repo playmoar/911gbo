@@ -19,6 +19,10 @@ header {
   background-repeat: no-repeat;
 }
 
+.main-navigation-mobile {
+  display: none;
+}
+
 #map {
   width: 635px;
   height: 535px;
@@ -1584,6 +1588,96 @@ input[type=range]:focus::-ms-fill-upper {
   }
   .second-gen {
     margin-top: 10px;
+  }
+}
+
+@media (max-width: 930px) {
+  .container {
+    width: 300px;
+  }
+  .main-navigation {
+    display: none;
+  }
+  .main-navigation-mobile {
+    padding: 0;
+    margin: 0;
+    padding-top: 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .site-navigation-mobile {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    list-style: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 300px;
+    margin: 0 auto;
+    padding: 0;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .site-navigation-mobile li {
+    width: 100px;
+  }
+  .site-navigation-mobile a {
+    font-family: Montserrat;
+    font-size: 8px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    color: #dcaf87;
+  }
+  .location {
+    padding-left: 10px;
+  }
+  .location:before {
+    content: "";
+    display: block;
+    background: url("../img/maps-and-flags.png") no-repeat;
+    background-size: contain;
+    width: 10px;
+    height: 14px;
+    float: left;
+    margin: 5px 1px 0 10px;
+  }
+  .main-header-burger img {
+    padding-left: 50px;
+  }
+  .main-header-logo {
+    padding-left: 10px;
+  }
+  .calc-cont {
+    width: 300px;
+  }
+  .calculator {
+    width: 300px;
+    margin: 0 auto;
+    margin-top: -430px;
+  }
+  .description {
+    font-size: 10px;
+    margin-top: 48px;
+  }
+  .title {
+    font-size: 26px;
+    width: 214px;
+    line-height: 1.3;
+  }
+  .uline {
+    border-bottom: 3px solid #D59D6B;
+    padding: 0px;
   }
 }
 /*# sourceMappingURL=main.css.map */
