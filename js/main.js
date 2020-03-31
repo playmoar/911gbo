@@ -78,7 +78,7 @@ function init() {
   myMap = new ymaps.Map('map', {
     // При инициализации карты обязательно нужно указать
     // её центр и коэффициент масштабирования.
-    center: [53.224619, 63.636842],
+    center: [53.224487, 63.639079],
     zoom: 16
   }, {
     searchControlProvider: 'yandex#search'
