@@ -1865,22 +1865,25 @@ input[type=range]:focus::-ms-fill-upper {
     margin-left: 10px;
   }
   .ticket-right-side h3 {
-    width: 280px;
+    width: 300px;
   }
   .ticket-call-back-desc {
-    width: 280px;
+    width: 300px;
   }
   .contacts-title {
-    width: 280px;
+    width: 300px;
   }
   .contacts-tel1 {
-    margin-right: 78px;
-  }
-  .contacts-tel2 {
     margin-right: 68px;
   }
+  .contacts-tel2 {
+    margin-right: 58px;
+  }
   .contacts-hours {
-    width: 280px;
+    width: 300px;
+  }
+  .contacts-adress {
+    width: 290px;
   }
   .ticket-icons {
     margin-right: 120px;
