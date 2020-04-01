@@ -3,6 +3,14 @@ html {
   scroll-behavior: smooth;
 }
 
+.pgen:hover {
+  color: #959AA2;
+}
+
+.active-gen:hover {
+  color: #D59D6B;
+}
+
 .burger-menu {
   width: 220px;
   position: fixed;
@@ -608,6 +616,11 @@ header {
   color: #131313;
   padding: 0;
   margin: 0;
+}
+
+.brands-line2 img {
+  width: 150px;
+  height: 40px;
 }
 
 .brands-line2 {
@@ -1814,7 +1827,8 @@ input[type=range]:focus::-ms-fill-upper {
     margin: 0;
   }
   .brands-line1-mobile img {
-    width: 85%;
+    width: 150px;
+    height: 40px;
   }
   .generations {
     margin-top: 35px;
