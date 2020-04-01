@@ -316,8 +316,12 @@
     <div class="ticket-right-side">
       <h3>Отправить заявку</h3>
       <p class="ticket-call-back-desc">Мы обязательно перезвоним вам!</p>
-      <input class="tel-input wow flash" data-wow-delay="1s" type="tel" id="phone" autocomplete="off"
-        data-intl-tel-input-id="0" placeholder="7 (7__) - ___ - __ - __">
+      <form id="my-form" action="https://formspree.io/xyydgqjr" method="POST"><input name="tel"
+          class="tel-input wow flash" data-wow-delay="1s" type="tel" id="phone" autocomplete="off"
+          data-intl-tel-input-id="0" placeholder="7 (7__) - ___ - __ - __">
+        <button type="submit" class="send">Отправить</button>
+      </form>
+
       <script src="js/intlTelInput.js"></script>
       <script>
         var input = document.querySelector("#phone");
@@ -326,7 +330,7 @@
           allowDropdown: false,
         });
       </script>
-      <button class="send">Отправить</button>
+
       <p class="contacts-title">Контакты</p>
       <p class="contacts-tel1">+7 (705) 183-14-97</p>
       <p class="contacts-tel2">+7 (705) 570-09-31</p>
@@ -414,6 +418,7 @@
   <script>
     new WOW().init();
   </script>
+
 </body>
 
 
