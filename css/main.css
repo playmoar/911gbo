@@ -321,14 +321,6 @@ header {
   position: absolute;
 }
 
-.trade-offer-icon-bg span {
-  transform: rotate(45deg);
-  -ms-transform: rotate(45deg);
-  /* IE 9 */
-  -webkit-transform: rotate(45deg);
-  /* Safari and Chrome */
-}
-
 .trade-offer-list h3 {
   font-family: Montserrat;
   font-size: 16px;
@@ -351,6 +343,21 @@ header {
   letter-spacing: normal;
   text-align: center;
   color: #919aa7;
+}
+
+.trade-offer-counter-2514 {
+  font-family: Montserrat;
+  font-size: 13px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.54;
+  letter-spacing: normal;
+  text-align: center;
+  color: black;
+  position: absolute;
+  margin-top: 41px;
+  margin-left: 38px;
 }
 
 .trade-offer-list {
