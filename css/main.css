@@ -2001,6 +2001,114 @@ input[type=range]:focus::-ms-fill-upper {
   .burger-close {
     filter: invert(100%);
     -webkit-filter: invert(100%);
+    margin-left: 30px;
+  }
+  .burger-title {
+    font-family: Montserrat;
+    font-size: 13px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.23;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+    margin-top: 40px;
+  }
+  .burger-subtitle {
+    font-family: Montserrat;
+    font-size: 10px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.3;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+    margin-top: 10px;
+  }
+  .burger-button {
+    width: 159px;
+    height: 32px;
+    border-radius: 8px;
+    background-color: #ffffff;
+    font-family: Montserrat;
+    font-size: 10px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.3;
+    letter-spacing: normal;
+    text-align: center;
+    color: #131313;
+    border: none;
+    margin-left: 31px;
+    margin-top: 15px;
+  }
+  .burger-mail {
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.25;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+    margin-top: 54px;
+    margin-bottom: 4px;
+  }
+  .burger-white-line {
+    width: 180px;
+    height: 2px;
+    margin: 0 auto;
+    background-color: #fff;
+  }
+  .burger-socials {
+    list-style: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 60px;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin: 0;
+    margin-top: 10px;
+    margin-left: 38px;
+  }
+  .burger-socials li {
+    width: 28px;
+    height: 28px;
+    background-color: white;
+    border-radius: 50%;
+  }
+  .burger-contacts {
+    list-style: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+    height: 180px;
+    width: 200px;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin: 0 auto;
+    padding: 0;
+    margin-top: 27px;
   }
 }
 /*# sourceMappingURL=main.css.map */
