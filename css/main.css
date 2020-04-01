@@ -121,6 +121,10 @@ header {
   color: #ffffff;
 }
 
+.ticket:hover {
+  background-image: linear-gradient(200deg, #b87f4c 129%, #e1bc9c -45%);
+}
+
 .location:before {
   content: "";
   display: block;
@@ -814,6 +818,10 @@ header {
   letter-spacing: normal;
   text-align: center;
   color: #ffffff;
+}
+
+.send:hover {
+  background-image: linear-gradient(200deg, #b87f4c 129%, #e1bc9c -45%);
 }
 
 .contacts-title {
