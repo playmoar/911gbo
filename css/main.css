@@ -1999,6 +1999,9 @@ input[type=range]:focus::-ms-fill-upper {
     margin-left: 60px;
   }
   .burger-close {
+    position: absolute;
+    top: 25px;
+    right: 25px;
     filter: invert(100%);
     -webkit-filter: invert(100%);
     margin-left: 30px;
