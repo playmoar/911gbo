@@ -840,7 +840,7 @@ header {
 .contacts-tel1::before {
   content: "";
   display: block;
-  background: url("../img/icon_call.png") no-repeat;
+  background: url("../img/Icon_call.png") no-repeat;
   width: 25px;
   height: 25px;
   float: left;
@@ -879,7 +879,7 @@ header {
 .contacts-adress::before {
   content: "";
   display: block;
-  background: url("../img/icon_address.png") no-repeat;
+  background: url("../img/Icon_address.png") no-repeat;
   background-size: contain;
   width: 25px;
   height: 25px;
