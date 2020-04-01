@@ -13,25 +13,25 @@ var calculationResultValue = document.getElementById("calculation-result-value")
 
 gasCost.oninput = function () {
   gasCostOut.innerHTML = this.value;
-  calculationResultValue.innerHTML = ((petrolConsumption.value / 100 * dailyMileage.value * petrolCost.value - petrolConsumption.value / 100 * dailyMileage.value * gasCost.value) * 365).toFixed(0);
+  calculationResultValue.innerHTML = ((petrolConsumption.value / 100 * dailyMileage.value * petrolCost.value - petrolConsumption.value / 100 * dailyMileage.value * gasCost.value) * 365).toFixed(0).toString().replace(/\B(?=(\d{3})+(?!\d))/g, " ");
 }
 
 petrolCost.oninput = function () {
   petrolCostOut.innerHTML = this.value;
-  calculationResultValue.innerHTML = ((petrolConsumption.value / 100 * dailyMileage.value * petrolCost.value - petrolConsumption.value / 100 * dailyMileage.value * gasCost.value) * 365).toFixed(0);
+  calculationResultValue.innerHTML = ((petrolConsumption.value / 100 * dailyMileage.value * petrolCost.value - petrolConsumption.value / 100 * dailyMileage.value * gasCost.value) * 365).toFixed(0).toString().replace(/\B(?=(\d{3})+(?!\d))/g, " ");
 }
 
 dailyMileage.oninput = function () {
   dailyMileageOut.innerHTML = this.value;
-  calculationResultValue.innerHTML = ((petrolConsumption.value / 100 * dailyMileage.value * petrolCost.value - petrolConsumption.value / 100 * dailyMileage.value * gasCost.value) * 365).toFixed(0);
+  calculationResultValue.innerHTML = ((petrolConsumption.value / 100 * dailyMileage.value * petrolCost.value - petrolConsumption.value / 100 * dailyMileage.value * gasCost.value) * 365).toFixed(0).toString().replace(/\B(?=(\d{3})+(?!\d))/g, " ");;
 }
 
 petrolConsumption.oninput = function () {
   petrolConsumptionOut.innerHTML = this.value;
-  calculationResultValue.innerHTML = ((petrolConsumption.value / 100 * dailyMileage.value * petrolCost.value - petrolConsumption.value / 100 * dailyMileage.value * gasCost.value) * 365).toFixed(0);
+  calculationResultValue.innerHTML = ((petrolConsumption.value / 100 * dailyMileage.value * petrolCost.value - petrolConsumption.value / 100 * dailyMileage.value * gasCost.value) * 365).toFixed(0).toString().replace(/\B(?=(\d{3})+(?!\d))/g, " ");
 }
 
-calculationResultValue.innerHTML = ((petrolConsumption.value / 100 * dailyMileage.value * petrolCost.value - petrolConsumption.value / 100 * dailyMileage.value * gasCost.value) * 365).toFixed(0);
+calculationResultValue.innerHTML = ((petrolConsumption.value / 100 * dailyMileage.value * petrolCost.value - petrolConsumption.value / 100 * dailyMileage.value * gasCost.value) * 365).toFixed(0).toString().replace(/\B(?=(\d{3})+(?!\d))/g, " ");
 
 const burgerMenu = document.getElementById("burger-menu");
 const burgerIcon = document.getElementById("burger-icon");
