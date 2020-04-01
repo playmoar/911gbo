@@ -34,7 +34,7 @@ html {
 header {
   width: 100%;
   height: 729px;
-  background-image: url(../img/bg1.png);
+  background-image: url(../img/bg1.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -314,7 +314,7 @@ header {
 .trade-offer-icon-bg p {
   position: absolute;
   margin-top: 40px;
-  margin-left: 35px;
+  margin-left: 38px;
 }
 
 .trade-offer-icon-bg img {
@@ -428,7 +428,7 @@ header {
 
 .equipment-dot1 {
   position: absolute;
-  margin-top: 170px;
+  margin-top: 230px;
 }
 
 .equipment-dot2 {
@@ -646,7 +646,7 @@ header {
 
 .for-clients {
   height: 500px;
-  background-image: url("../img/bg2.png");
+  background-image: url("../img/bg2.jpg");
 }
 
 .for-clients-container {
@@ -840,7 +840,7 @@ header {
 .contacts-tel1::before {
   content: "";
   display: block;
-  background: url("../img/icon call.png") no-repeat;
+  background: url("../img/icon_call.png") no-repeat;
   width: 25px;
   height: 25px;
   float: left;
@@ -879,7 +879,7 @@ header {
 .contacts-adress::before {
   content: "";
   display: block;
-  background: url("../img/icon address.png") no-repeat;
+  background: url("../img/icon_address.png") no-repeat;
   background-size: contain;
   width: 25px;
   height: 25px;
